@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Inter", serif;
+}
+.header{
+    width: 1440px;
+    margin: 0 auto;
+}
+.nav{
+    width: 1440px;
+    height: 170px;
+    background-color: black;
+    padding: 55px 100px 36px 101px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+.nav ul li{
+    color: white;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+}
+.header-content{
+    width: 1440px;
+    height: 594px;
+    background-image: url(Rectangle\ 2.png);
+    background: -moz-linear-gradient(#000000C7);
+    padding-bottom: 88px;
+    padding-top: 59px;
+}
+h1{
+    color: black;
+    background-color: white;
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+    text-align: center;
+    align-content: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    margin: 0px auto;
+}
+.box{
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    color: #FF0606;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    text-shadow: 0px 4px 7.4px 0px #FFFFFF;
+    text-align: center;
+    padding-top: 146px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+}
+.kartocki{
+    display: flex;
+    justify-content: space-around;
+}
+.boxx{
+    background-color: #F70101;
+    width: 237px;
+    height: 209px;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    position: relative;
+    top: 105px;
+}
+.boxx:nth-child(2){
+    width: 411px;
+    height: 209px;
+    border-radius: 100px;
+}
+.kartocki2{
+    display: flex;
+    gap: 61px;
+    margin-left: 206px;
+    margin-right: 233px;
+}
+.section{
+    width: 1440px;
+    height: 800px;
+    background-color: black;
+    margin: 0 auto;
+    padding-top: 79px;
+}
+.box1{
+    width: 368px;
+    height: 332px;
+    background-color: #7B2525;
+}
+.kartocki3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 125px;
+}
+h4{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: center;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    margin-top: 50px;
+}
+.box1 p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+    color: white;
+    margin: 68px 51px 89px 52px;
+}
+.img1{
+    margin: 87px 16px 60px 16px;
+}
+.img2{
+    margin: 36px 28px 22px 28px;
+}
+.nav2{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 87px;
+    padding-right: 101px;
+    align-items: center;
+    margin-top: 50px;
+}
+.nav2 ul{
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+.nav2 ul li{
+    color: white;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+}
